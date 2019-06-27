@@ -1,0 +1,114 @@
+h1 {
+    font-family: 'Arvo', serif;
+    display: flex;
+    text-shadow: 1px 2px rgb(214, 214, 214);;
+    display: flex;
+    justify-content: center;
+    color: #ED786A;
+    letter-spacing: 0.2rem;
+}
+
+hr{
+    width: 50%;
+}
+ i{
+     opacity: 0.5;
+ }
+.subheader {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(177, 177, 177);;
+}
+
+h3  {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(177, 177, 177);;
+}
+
+.three-images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.three-images div img {
+    margin: 0px 5px;
+    width: 210px;
+    height: 140px;
+}
+
+.three-images div {
+    max-width: 275px;
+}
+
+.three-images div p {
+    text-align: center;
+    color: rgb(177, 177, 177);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#home-top {
+    text-align: center;
+}
+
+#stretch {
+    width: 100%;
+}
+
+#quote-container{
+    background-color: grey;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote{
+color: white;
+font-size: 32px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-template-areas: 
+        ". main-articles sidebar .";
+}
+
+.main-articles {
+    grid-area: main-articles;
+    background-color: purple;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: pink;
+}
+
+#tell-me-more{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #ED786A;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.5rem;
+    width: 100px;
+    height: 25px;
+    
+}
+
+/* #main-articles {
+    width: 600px;
+    height: 500px;
+    background-color: purple;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#sidebar {
+    width: 300px;
+    height: 500px;
+    background-color: pink;
+} */
