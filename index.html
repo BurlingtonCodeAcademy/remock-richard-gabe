@@ -12,13 +12,15 @@
 
   </style>  
   <body>
-    <section id="header"></section>
-      <h1>HOME PAGE</h1>
+    <section id="header">
+      <a href="">HOME PAGE</a>
       <h3>THE PAGE FOR THE HOME.</h3>
-      <hr>
-      <hr>
+      <hr style="width: 50%">
+      <hr style="width: 50%">
+    </section>
+    <section id="features">
       <div id="home-top">
-        <p class="subheader">LOOK AT THIS AMAZING <strong> HOME PAGE</strong>!<p>
+        <p class="subheader">TAKE LOOK AT THIS AMAZING <strong> HOME PAGE</strong>!<p>
         <div class="three-images">
           <div>
             <img src="https://placekitten.com/300/200"></img>
@@ -36,35 +38,128 @@
          </div>
          <button id="tell-me-more"><i class="fas fa-file"></i>&ensp;TELL ME MORE</button>
       </div>
+    </section>
+    <section id ="quote-area">
       <hr>
       <div id="quote-container">
         <p id="quote">USE THIS SPACE FOR <strong> A GREAT QUOTE.</strong></p>
       </div>
       <hr>
+    </section>
+    <section id="main">
       <div class="articles"> <!--contains two columns-->
         <div class="main-articles"> <!--Make this a flexbox set to column-->
           <div class="article-wrapper"> <!--Make this a flexbox also set to column-->
-            <p id = "aliens">I DON'T WANT TO SAY IT'S THE ALIENS ... <br>
-             BUT IT'S THE ALIENS.</p>
-             <!--An image-->
-             <!--An article subheader-->
-             <!--Article text-->
-             <!--A button-->
-          </div>
+            <p class="subheader">I DON'T WANT TO SAY <strong>IT'S THE ALIENS</strong>&hellip;<br>BUT IT'S THE ALIENS.</p>
+             <img src="https://placekitten.com/300/250"></img><!--An image-->
+             <p class = "paragraph-header article-text"><strong>Totally</strong>&hellip;</p><!--An article subheader-->
+             <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+               sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+               sit amet mauris. Proin consectetur tellus porttitor, pellentesque magna et, euismod 
+               erat. Morbi condimentum ante ut accumsan condimentum. In hac habitasse platea dictumst. 
+               Aliquam id ullamcorper tortor. Donec eu porttitor purus. Nullam porttitor molestie magna, 
+               id semper lacus malesuada nec. Nullam tempus, purus nec interdum elementum, sem diam 
+               placerat dolor, nec mollis odio turpis eu diam.</p>
+               <button id="tell-me-more"><i class="fas fa-file"></i>&ensp;CONTINUE READING</button><!--A button-->
+               <br>
+               <hr class="hr" style = "width: 100%"><hr class= "hr" style = "width: 100%">
+              <br>
+            </div>
           <div class="article-wrapper"> <!--Make this a flexbox also set to column-->
-            <p id = "demo">Awesome Demo Photo.</p>
-             <!--An image-->
-             <!--An article subheader-->
-             <!--Article text-->
-             <!--A button-->
+            <p class = "subheader">AWESOME DEMO PHOTO.</p>
+            <img src="https://placekitten.com/300/250"></img><!--An image-->
+            <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. <br><br>Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris. Proin consectetur tellus porttitor, pellentesque magna et, euismod 
+                erat. Morbi condimentum ante ut accumsan condimentum. In hac habitasse platea dictumst. 
+                Aliquam id ullamcorper tortor. Donec eu porttitor purus. Nullam porttitor molestie magna, 
+                id semper lacus malesuada nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris. <br><br>Nullam tempus, purus nec interdum elementum, sem diam 
+                placerat dolor, nec mollis odio turpis eu diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris.</p><!--Article text-->
+                <button id="tell-me-more"><i class="fas fa-file"></i>&ensp;CONTINUE READING</button><!--A button-->
           </div>
         </div>
         <div id="sidebar">
-          <p class="subheader">text here</p>
+          <div class = "sidebar-article-wrapper">
+            <div class="date">JULY 30</div>
+            <p class="article-text"><strong>JUST ANOTHER POST</strong></p>
+            <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem.  </p>
+            <hr>
+          </div>
+          <div class = "sidebar-article-wrapper">
+              <div class="date">JULY 30</div>
+              <p class="article-text"><strong>JUST ANOTHER POST</strong></p>
+              <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                  sit amet ornare lorem.  </p>
+              <hr>
+          </div>
+          <div class = "sidebar-article-wrapper">
+              <div class="date">JULY 30</div>
+              <p class="article-text"><strong>JUST ANOTHER POST</strong></p>
+              <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                  sit amet ornare lorem.  </p>
+              <hr>
+              <hr>
+          </div>
+          <div class = "sidebar-article-wrapper">
+            <p class="article-text"><strong>SOMETHING OF NOTE</strong></p>
+            <img style = "float: left" src="https://placekitten.com/150/150"></img>
+            <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris. Proin consectetur tellus porttitor, pellentesque magna et, euismod 
+                erat. </p>
+            <button id="tell-me-more"><i class="fas fa-file"></i>&ensp;LEARN MORE</button><!--A button-->
+            <hr>
+          </div>
+          <div class = "sidebar-article-wrapper">
+            <p class="article-text"><strong>SOMETHING OF NOTE</strong></p>
+            <img style = "float: left" src="https://placekitten.com/150/150"></img>
+            <p class = "article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris. Proin consectetur tellus porttitor, pellentesque magna et, euismod 
+                erat. </p>
+            <button id="tell-me-more"><i class="fas fa-file"></i>&ensp;LEARN MORE</button><!--A button-->
+            <hr>
+          </div>
         </div>
       </div>
-    <section id="features"></section>
-    <section id="main"></section>
-    <section id="footer"></section>
+    </section>
+    <section id="footer">
+      <p class = "QandA-title">QUESTIONS OR COMMENTS? <strong>GET IN TOUCH:</strong></p>
+      <div id="footer-grid-container">
+        <div id="footer-content-wrapper">
+          <div class="footer-content">
+            <input style = "display: inline-block" type="text" placeholder="Name">
+            <input style = "display: inline-block" type="email" placeholder="Email">
+            <br>
+            <textarea cols="45" rows="4" placeholder="Message"></textarea>
+            <br>
+            <button id="tell-me-more"><i class="fas fa-file"></i>&ensp;SEND MESSAGE</button><!--A button-->
+          </div>
+          <div class="footer-content">
+           <p class = "footer-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et iaculis enim, 
+                sit amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a, sollicitudin 
+                sit amet mauris.
+           </p>
+           <div id = "footer-contact-details">
+             <div id="footer-home"><i class="fas fa-home"></i>&ensp;1234 Somewhere Rd<br>&emsp;&emsp;Burlington, VT 00000<br>&emsp;&emsp;USA</div>
+              <a><i class="fab fa-twitter"></i>&ensp;@untitled</a>
+              <a><i class="fab fa-instagram"></i>&ensp;instagram.com</a>
+              <a><i class="fas fa-phone"></i>&ensp;(000) 000-0000</a>
+              <a><i class="fab fa-dribbble"></i>&ensp;dribbble.com</a>
+              <a><i class="fas fa-envelope"></i>&ensp;info@untitled</a>
+              <a><i class="fab fa-facebook"></i>&ensp;facebook.com</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
