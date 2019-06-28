@@ -14,35 +14,34 @@
     />
     <script src="https://kit.fontawesome.com/3790183da0.js"></script>
   </head>
-  <style></style>
   <body>
     <section id="header">
-      <a href="index.html">HOME PAGE</a>
-      <h3 class="grey-text">THE PAGE FOR THE HOME.</h3>
+      <a href="index.html large-text">HOME PAGE</a>
+      <h3 class="grey-text small-text">THE PAGE FOR THE HOME.</h3>
     </section>
     <section id="features">
       <div id="home-top">
-        <hr style="width: 100%" />
-        <hr style="width: 100%" />
-        <p class="subheader grey-text centered">
+        <hr style="width: 58vw" />
+        <hr style="width: 58vw" />
+        <p class="subheader grey-text centered medium-text">
           TAKE LOOK AT THIS AMAZING <strong> HOME PAGE</strong>!
         </p>
         <p></p>
         <div class="three-images">
           <div>
             <img src="https://placekitten.com/300/200" />
-            <p class="grey-text">IMAGE ONE</p>
+            <p class="grey-text small-text">IMAGE ONE</p>
           </div>
           <div>
             <img src="https://placekitten.com/300/200" />
-            <p class="grey-text">IMAGE TWO</p>
+            <p class="grey-text small-text">IMAGE TWO</p>
           </div>
           <div>
             <img src="https://placekitten.com/300/200" />
-            <p class="grey-text">IMAGE THREE</p>
+            <p class="grey-text small-text">IMAGE THREE</p>
           </div>
         </div>
-        <button id="tell-me-more">
+        <button onclick="window.location.href = 'learn-more.html'" id="tell-me-more">
           <i class="fas fa-file"></i>&ensp;TELL ME MORE
         </button>
       </div>
@@ -61,13 +60,13 @@
           <!--Make this a flexbox set to column-->
           <div class="article-wrapper">
             <!--Make this a flexbox also set to column-->
-            <p class="subheader grey-text">
+            <a href="blog-post.html" class="subheader grey-text">
               I DON'T WANT TO SAY
               <strong>IT'S THE ALIENS</strong>&hellip;<br />BUT IT'S THE ALIENS.
-            </p>
+            </a>
             <img src="https://placekitten.com/300/250" />
             <p class="paragraph-header article-text grey-text">
-              <strong>Totally</strong>&hellip;
+              <strong>TOTALLY</strong>&ensp;&hellip;
             </p>
             <!--An article subheader-->
             <p class="article-text grey-text">
@@ -81,9 +80,9 @@
               Nullam tempus, purus nec interdum elementum, sem diam placerat
               dolor, nec mollis odio turpis eu diam.
             </p>
-            <button id="tell-me-more">
+            <button onclick="window.location.href = 'continue-reading.html'" id="tell-me-more">
               <i class="fas fa-file"></i>&ensp;CONTINUE READING</button
-            ><!--A button-->
+            >
             <br />
             <hr class="hr" style="width: 100%" />
             <hr class="hr" style="width: 100%" />
@@ -91,7 +90,7 @@
           </div>
           <div class="article-wrapper">
             <!--Make this a flexbox also set to column-->
-            <p class="subheader grey-text">AWESOME DEMO PHOTO.</p>
+            <a href="blog-post.html" class="subheader grey-text">AWESOME DEMO PHOTO.</a>
             <img src="https://placekitten.com/300/250" />
             <p class="article-text grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
@@ -114,17 +113,17 @@
               sollicitudin sit amet mauris.
             </p>
             <!--Article text-->
-            <button id="tell-me-more">
+            <button onclick="window.location.href = 'continue-reading.html'" id="tell-me-more">
               <i class="fas fa-file"></i>&ensp;CONTINUE READING</button
-            ><!--A button-->
+            >
           </div>
         </div>
         <div id="sidebar">
           <div class="sidebar-article-wrapper">
             <div class="date">JULY 30</div>
-            <p class="article-text grey-text">
+            <a href="blog-post.html" class="article-text grey-text">
               <strong>JUST ANOTHER POST</strong>
-            </p>
+            </a>
             <p class="article-text grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem.
@@ -133,9 +132,9 @@
           </div>
           <div class="sidebar-article-wrapper">
             <div class="date">JULY 30</div>
-            <p class="article-text grey-text">
+            <a href="blog-post.html" class="article-text grey-text">
               <strong>JUST ANOTHER POST</strong>
-            </p>
+            </a>
             <p class="article-text grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem.
@@ -144,9 +143,9 @@
           </div>
           <div class="sidebar-article-wrapper">
             <div class="date">JULY 30</div>
-            <p class="article-text grey-text">
+            <a href="blog-post.html" class="article-text grey-text">
               <strong>JUST ANOTHER POST</strong>
-            </p>
+            </a>
             <p class="article-text grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem.
@@ -155,9 +154,10 @@
             <hr />
           </div>
           <div class="sidebar-article-wrapper">
-            <p class="article-text grey-text">
+            <a href="blog-post.html" class="article-text grey-text">
               <strong>SOMETHING OF NOTE</strong>
-            </p>
+            </a>
+           <div class = "image-with-text">
             <img style="float: left" src="https://placekitten.com/150/150" />
             <p class="article-text grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
@@ -165,15 +165,17 @@
               id interdum a, sollicitudin sit amet mauris. Proin consectetur
               tellus porttitor, pellentesque magna et, euismod erat.
             </p>
-            <button id="tell-me-more">
+          </div>
+            <button onclick="window.location.href = 'learn-more.html'" id="tell-me-more">
               <i class="fas fa-file"></i>&ensp;LEARN MORE</button
-            ><!--A button-->
+            >
             <hr />
           </div>
           <div class="sidebar-article-wrapper">
-            <p class="article-text grey-text">
+            <a href="blog-post.html" class="article-text grey-text">
               <strong>SOMETHING OF NOTE</strong>
-            </p>
+            </a>
+            <div class = "image-with-text">
             <img style="float: left" src="https://placekitten.com/150/150" />
             <p class="article-text grey-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
@@ -181,9 +183,10 @@
               id interdum a, sollicitudin sit amet mauris. Proin consectetur
               tellus porttitor, pellentesque magna et, euismod erat.
             </p>
-            <button id="tell-me-more">
+            </div>
+            <button onclick="window.location.href = 'learn-more.html'" id="tell-me-more">
               <i class="fas fa-file"></i>&ensp;LEARN MORE</button
-            ><!--A button-->
+            >
             <hr />
           </div>
         </div>
@@ -228,28 +231,20 @@
               id interdum a, sollicitudin sit amet mauris.
             </p>
             <div id="footer-contact-details">
-              <div class="grey-text" id="footer-home">
-                <a class="grey-text"><i class="fas fa-home"></i>&ensp;1234 Somewhere Rd<br />&emsp;&emsp;Burlington,
-                VT 00000<br />&emsp;&emsp;USA
-              </a>
-              </div>
-              <a class="grey-text"><i class="fab fa-twitter"></i>&ensp;@untitled</a
-              >
-              <a class="grey-text"
-                ><i class="fab fa-instagram"></i>&ensp;instagram.com</a
-              >
-              <a class="grey-text"
-                ><i class="fas fa-phone"></i>&ensp;(000) 000-0000</a
-              >
-              <a class="grey-text"
-                ><i class="fab fa-dribbble"></i>&ensp;dribbble.com</a
-              >
-              <a class="grey-text"
-                ><i class="fas fa-envelope"></i>&ensp;info@untitled</a
-              >
-              <a class="grey-text"
-                ><i class="fab fa-facebook"></i>&ensp;facebook.com</a
-              >
+              <i class="fas fa-home"></i>
+              <a class="grey-text" id="address">1234 Somewhere Rd <br/>Burlington, VT 00000 <br/>USA</a>
+              <i class="fab fa-twitter" style = "grid-area: fa-twitter"></i>
+              <a class="grey-text" id="twitter">@untitled</a>
+              <i class="fab fa-instagram"></i>
+              <a class="grey-text"  id="instagram">instagram.com</a>
+              <i class="fas fa-phone"></i>
+              <a class="grey-text" id="phone-number">(000) 000-0000</a>
+              <i class="fab fa-dribbble"></i>
+              <a class="grey-text" id="dribbble">dribbble.com</a>
+              <i class="fas fa-envelope"></i>
+              <a class="grey-text" id="email">info@untitled</a>
+              <i class="fab fa-facebook"></i>
+              <a class="grey-text" id="facebook">facebook.com</a>
             </div>
           </div>
         </div>
