@@ -48,7 +48,7 @@ hr {
     margin-bottom: 1px;
     text-align: center;
   }
-  
+
 i {
   opacity: 0.5;
 }
@@ -186,6 +186,24 @@ img {
   grid-template-areas: ". main-articles sidebar .";
   margin-top: 50px;
 }
+
+.articles-reverse {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+    grid-template-areas: ". sidebar main-articles .";
+    margin-top: 50px;
+  }
+
+  .articles-post-only {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+    grid-template-areas: ". main-articles .";
+    margin-top: 50px;
+  }
 
 .main-articles {
   grid-area: main-articles;
