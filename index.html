@@ -16,29 +16,28 @@
   </head>
   <body>
     <section id="header">
-      <a href="index.html large-text">HOME PAGE</a>
-      <h3 class="grey-text small-text">THE PAGE FOR THE HOME.</h3>
+      <a href="index.html">HOME PAGE</a>
+      <h3 class="small-text">THE PAGE FOR THE HOME.</h3>
     </section>
     <section id="features">
       <div id="home-top">
         <hr style="width: 58vw" />
         <hr style="width: 58vw" />
-        <p class="subheader grey-text centered medium-text">
-          TAKE LOOK AT THIS AMAZING <strong> HOME PAGE</strong>!
+        <p class="centered medium-text">
+          TAKE LOOK AT THIS AMAZING <strong> HOME PAGE</strong>! 
         </p>
-        <p></p>
         <div class="three-images">
           <div>
             <img src="https://placekitten.com/300/200" />
-            <p class="grey-text small-text">IMAGE ONE</p>
+            <p class="small-text">IMAGE ONE</p>
           </div>
           <div>
             <img src="https://placekitten.com/300/200" />
-            <p class="grey-text small-text">IMAGE TWO</p>
+            <p class="small-text">IMAGE TWO</p>
           </div>
           <div>
             <img src="https://placekitten.com/300/200" />
-            <p class="grey-text small-text">IMAGE THREE</p>
+            <p class="small-text">IMAGE THREE</p>
           </div>
         </div>
         <button onclick="window.location.href = 'learn-more.html'" id="tell-me-more">
@@ -48,8 +47,10 @@
     </section>
     <section id="quote-area">
       <hr />
-      <div id="quote-container">
+      <div id="quote-container" style="display: flex; justify-content: space-around">
+        <p class="quote-brackets">&#12314;</p>
         <p id="quote">USE THIS SPACE FOR <strong> A GREAT QUOTE.</strong></p>
+        <p class="quote-brackets">&#12315;</p>
       </div>
       <hr />
     </section>
@@ -60,16 +61,15 @@
           <!--Make this a flexbox set to column-->
           <div class="article-wrapper">
             <!--Make this a flexbox also set to column-->
-            <a href="blog-post.html" class="subheader grey-text">
+            <a href="blog-post.html" class="medium-text">
               I DON'T WANT TO SAY
               <strong>IT'S THE ALIENS</strong>&hellip;<br />BUT IT'S THE ALIENS.
             </a>
             <img src="https://placekitten.com/300/250" />
-            <p class="paragraph-header article-text grey-text">
+            <p class="paragraph-header small-text small-header">
               <strong>TOTALLY</strong>&ensp;&hellip;
             </p>
-            <!--An article subheader-->
-            <p class="article-text grey-text">
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem. Curabitur arcu arcu, feugiat
               id interdum a, sollicitudin sit amet mauris. Proin consectetur
@@ -90,11 +90,14 @@
           </div>
           <div class="article-wrapper">
             <!--Make this a flexbox also set to column-->
-            <a href="blog-post.html" class="subheader grey-text">AWESOME DEMO PHOTO.</a>
-            <img src="https://placekitten.com/300/250" />
-            <p class="article-text grey-text">
+            <a href="blog-post.html" class="medium-text">AWESOME DEMO PHOTO.</a>
+            <img src="https://placekitten.com/300/250" style="margin-bottom: 1vw;" />
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-              iaculis enim, sit amet ornare lorem. <br /><br />Curabitur arcu
+              iaculis enim, sit amet ornare lorem. Aliquam id ullamcorper tortor. Donec eu porttitor
+              purus. Nullam porttitor molestie magna, id semper lacus malesuada
+              nec.</p> 
+            <p class="small-text">Curabitur arcu
               arcu, feugiat id interdum a, sollicitudin sit amet mauris. Proin
               consectetur tellus porttitor, pellentesque magna et, euismod erat.
               Morbi condimentum ante ut accumsan condimentum. In hac habitasse
@@ -103,7 +106,8 @@
               nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Nulla et iaculis enim, sit amet ornare lorem. Curabitur arcu arcu,
               feugiat id interdum a, sollicitudin sit amet mauris.
-              <br /><br />Nullam tempus, purus nec interdum elementum, sem diam
+            </p> 
+            <p class="small-text">Nullam tempus, purus nec interdum elementum, sem diam
               placerat dolor, nec mollis odio turpis eu diam. Lorem ipsum dolor
               sit amet, consectetur adipiscing elit. Nulla et iaculis enim, sit
               amet ornare lorem. Curabitur arcu arcu, feugiat id interdum a,
@@ -119,51 +123,57 @@
           </div>
         </div>
         <div id="sidebar">
-          <div class="sidebar-article-wrapper">
+          <div>
             <div class="date">JULY 30</div>
-            <a href="blog-post.html" class="article-text grey-text">
+            <a href="blog-post.html" class="small-text small-header">
               <strong>JUST ANOTHER POST</strong>
             </a>
-            <p class="article-text grey-text">
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem.
             </p>
             <hr />
           </div>
-          <div class="sidebar-article-wrapper">
+          <br>
+          <div>
             <div class="date">JULY 30</div>
-            <a href="blog-post.html" class="article-text grey-text">
-              <strong>JUST ANOTHER POST</strong>
+            <a href="blog-post.html" class="small-text small-header">
+              <strong>AND ANOTHER POST</strong>
             </a>
-            <p class="article-text grey-text">
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem.
             </p>
             <hr />
           </div>
-          <div class="sidebar-article-wrapper">
+          <br>
+          <div>
             <div class="date">JULY 30</div>
-            <a href="blog-post.html" class="article-text grey-text">
-              <strong>JUST ANOTHER POST</strong>
+            <a href="blog-post.html" class="small-text small-header">
+              <strong>ONE MORE POST</strong>
             </a>
-            <p class="article-text grey-text">
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem.
             </p>
             <hr />
-            <hr />
+            <hr style= "margin-top: 0"/>
           </div>
-          <div class="sidebar-article-wrapper">
-            <a href="blog-post.html" class="article-text grey-text">
+          <br>
+          <div>
+            <a href="blog-post.html" class="small-text small-header">
               <strong>SOMETHING OF NOTE</strong>
             </a>
            <div class = "image-with-text">
             <img style="float: left" src="https://placekitten.com/150/150" />
-            <p class="article-text grey-text">
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem. Curabitur arcu arcu, feugiat
               id interdum a, sollicitudin sit amet mauris. Proin consectetur
-              tellus porttitor, pellentesque magna et, euismod erat.
+              tellus porttitor, pellentesque magna et, euismod erat. Lorem ipsum 
+              dolor sit amet, consectetur adipiscing elit. Nulla et
+              iaculis enim, sit amet ornare lorem. Curabitur arcu arcu, feugiat
+              id interdum a, sollicitudin sit amet mauris.
             </p>
           </div>
             <button onclick="window.location.href = 'learn-more.html'" id="tell-me-more">
@@ -171,17 +181,21 @@
             >
             <hr />
           </div>
-          <div class="sidebar-article-wrapper">
-            <a href="blog-post.html" class="article-text grey-text">
-              <strong>SOMETHING OF NOTE</strong>
+          <br>
+          <div>
+            <a href="blog-post.html" class="small-text small-header">
+              <strong>SOMETHING ELSE OF NOTE</strong>
             </a>
             <div class = "image-with-text">
             <img style="float: left" src="https://placekitten.com/150/150" />
-            <p class="article-text grey-text">
+            <p class="small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem. Curabitur arcu arcu, feugiat
               id interdum a, sollicitudin sit amet mauris. Proin consectetur
-              tellus porttitor, pellentesque magna et, euismod erat.
+              tellus porttitor, pellentesque magna et, euismod erat. Lorem ipsum 
+              dolor sit amet, consectetur adipiscing elit. Nulla et
+              iaculis enim, sit amet ornare lorem. Curabitur arcu arcu, feugiat
+              id interdum a, sollicitudin sit amet mauris.
             </p>
             </div>
             <button onclick="window.location.href = 'learn-more.html'" id="tell-me-more">
@@ -193,7 +207,7 @@
       </div>
     </section>
     <section id="footer">
-      <p class="QandA-title grey-text">
+      <p class="QandA-title medium-text">
         QUESTIONS OR COMMENTS? <strong>GET IN TOUCH:</strong>
       </p>
       <div id="footer-grid-container">
@@ -201,20 +215,20 @@
           <div class="footer-content">
             <form>
               <input
-                class="grey-text"
+                class="small-text"
                 id="name-input"
                 type="text"
                 placeholder="Name"
               />
               <input
-                class="grey-text"
+                class="small-text"
                 id="email-input"
                 type="email"
                 placeholder="Email"
               />
               <br />
               <textarea
-                class="grey-text"
+                class="small-text"
                 id="message-input"
                 cols="45"
                 rows="4"
@@ -225,26 +239,26 @@
               <i class="fas fa-file"></i>&ensp;SEND MESSAGE</button>
           </div>
           <div class="footer-content">
-            <p class="footer-text grey-text">
+            <p class="footer-text small-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
               iaculis enim, sit amet ornare lorem. Curabitur arcu arcu, feugiat
               id interdum a, sollicitudin sit amet mauris.
             </p>
             <div id="footer-contact-details">
               <i class="fas fa-home"></i>
-              <a class="grey-text" id="address">1234 Somewhere Rd <br/>Burlington, VT 00000 <br/>USA</a>
+              <a class="small-text" id="address">1234 Somewhere Rd <br/>Burlington, VT 00000 <br/>USA</a>
               <i class="fab fa-twitter" style = "grid-area: fa-twitter"></i>
-              <a class="grey-text" id="twitter">@untitled</a>
+              <a class="small-text" id="twitter">@untitled</a>
               <i class="fab fa-instagram"></i>
-              <a class="grey-text"  id="instagram">instagram.com</a>
+              <a class="small-text"  id="instagram">instagram.com</a>
               <i class="fas fa-phone"></i>
-              <a class="grey-text" id="phone-number">(000) 000-0000</a>
+              <a class="small-text" id="phone-number">(000) 000-0000</a>
               <i class="fab fa-dribbble"></i>
-              <a class="grey-text" id="dribbble">dribbble.com</a>
+              <a class="small-text" id="dribbble">dribbble.com</a>
               <i class="fas fa-envelope"></i>
-              <a class="grey-text" id="email">info@untitled</a>
+              <a class="small-text" id="email">info@untitled</a>
               <i class="fab fa-facebook"></i>
-              <a class="grey-text" id="facebook">facebook.com</a>
+              <a class="small-text" id="facebook">facebook.com</a>
             </div>
           </div>
         </div>
