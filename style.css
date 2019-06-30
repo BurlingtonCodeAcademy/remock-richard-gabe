@@ -20,14 +20,14 @@
 .medium-text {
   font-size: 1.5vw;
   text-align: justify;
-  color: rgb(179, 179, 179);
+  color: rgb(136, 136, 136);
   font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
   letter-spacing: 0.05rem;
   margin-bottom: 20px;
 }
 strong {
-  color: grey;
+  color: rgb(117, 117, 117);
 }
 
 a[href]:hover,
@@ -43,11 +43,11 @@ a[href]:hover strong {
 }
 
 hr {
-    border: solid rgb(232, 232, 232) 0.5px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    text-align: center;
-  }
+  border: solid rgb(232, 232, 232) 0.5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+}
 
 i {
   opacity: 0.5;
@@ -84,10 +84,7 @@ i {
 
 #footer-contact-details {
   text-align: center;
-  /* font-size: 0.8vw; */
   letter-spacing: 0.05rem;
-  /* margin: 0; */
-  /* margin-bottom: 15px; */
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 20px 1fr 20px 1fr;
@@ -188,22 +185,22 @@ img {
 }
 
 .articles-reverse {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 40px;
-    grid-template-areas: ". sidebar main-articles .";
-    margin-top: 50px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  grid-template-areas: ". sidebar main-articles .";
+  margin-top: 50px;
+}
 
-  .articles-post-only {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 40px;
-    grid-template-areas: ". main-articles .";
-    margin-top: 50px;
-  }
+.articles-post-only {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  grid-template-areas: ". main-articles .";
+  margin-top: 50px;
+}
 
 .main-articles {
   grid-area: main-articles;
@@ -247,10 +244,11 @@ button {
 
 button:hover {
   background-color: rgb(238, 146, 136);
+  cursor: pointer;
 }
 
 #footer {
-  background-color: #f0f0f0;
+  background-color: #f3f3f3;
 }
 
 #footer-grid-container {
@@ -305,11 +303,13 @@ textarea {
   border-color: rgb(255, 255, 255);
   padding: 0.3rem;
   border-style: inset;
+  background-color: rgb(250, 250, 250);
 }
 
 form input:focus,
 textarea:focus {
   outline: darkgray auto;
+  background-color: white;
 }
 
 #footer-contact-details > a > i {
@@ -328,7 +328,8 @@ textarea:focus {
   grid-area: address;
 }
 
-/* .fa-twitter {
+/*Just showing that this can be an inline style. Leaving in for later refactoring*/
+/* .fa-twitter { 
     grid-area: fa-twitter;
 } */
 
@@ -378,14 +379,12 @@ textarea:focus {
 
 div#footer-contact-details i {
   background-color: rgb(59, 59, 59);
-  /* text-align: center; */
   border-radius: 50%;
-  /* padding: 4px; */
-  /* margin: 1px; */
-  /* font-size: 0.6vw; */
-  width: 100%;
-  height: 100%;
+  font-size: 10px;
+  vertical-align: middle;
   color: white;
+  box-shadow: 2px 2px rgb(190, 190, 190);
+  padding-top: 0.3vw;
 }
 
 .image-with-text {
@@ -395,8 +394,6 @@ div#footer-contact-details i {
 .image-with-text img {
   margin-top: 4px;
 }
-
-
 
 #sidebar > div:nth-child(5) > div:nth-child(3) > img {
   height: 6.67vw !important;
